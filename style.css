@@ -3,4 +3,59 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif; */
 body{
     font-family: 'Merriweather', serif;
+    background-color: white;
+    margin: 0px;
+}
+main{
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+.header1{
+    font-size: 50px;
+}
+.hover{
+    transition-duration: 2s;
+}
+.hov:hover{
+    color: #E02C6D;
+   font-size: 2em;
+}
+.img1{ 
+    transition: transform 1s;
+} 
+.img1:hover{
+    transform: rotate(35deg);
+}
+.margin{
+    font-size: 24px;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.new-margin{
+    margin-right: 20px;
+}
+.button{
+    border: 1px solid  #E02C6D ;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #E02C6D;
+}
+.header1{
+    font-size: 50px;
+}
+.start{
+ margin-right: 5%;
+    margin-top: 100px;
+    margin-left: 5%;
+    display: flex;
 }
